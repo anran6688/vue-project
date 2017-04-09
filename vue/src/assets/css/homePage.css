@@ -1,0 +1,297 @@
+.home-page {
+  width: 16rem;
+  height: 2.2rem;
+  background: #ffcb40;
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+}
+
+.home-page .logo {
+  width: 1.625rem;
+  height: 1.55rem;
+  position: absolute;
+  left: 1.425rem;
+  top: 0.375rem;
+  background: url(../img/logo.png) no-repeat;
+  background-size: 1.625rem 1.55rem;
+}
+
+.home-page .meau {
+  width: 1.1rem;
+  height: 0.875rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+  background: url(../img/meau-bg.png) no-repeat;
+  background-size: 1.1rem 0.875rem;
+}
+
+.home-page h1 {
+  -webkit-box-flex: 1;
+  flex: 1;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+}
+
+.home-page .meau-list {
+  width: 4.9rem;
+  height: 9.15rem;
+  background: #767979;
+  opacity: 0.8;
+  position: absolute;
+  top: 2.2rem;
+  right: 0;
+}
+
+.home-page .meau-list ul {
+  margin-top: 0.925rem;
+}
+
+.home-page .meau-list a {
+  width: 4.9rem;
+  height: 1.225rem;
+  display: block;
+  line-height: 1.225rem;
+  font-size: 0.4rem;
+  text-align: center;
+  color: #fff;
+}
+
+.home-page .meau-list a:hover {
+  background: #ffcf42;
+  color: #000;
+}
+
+.banner-box {
+  width: 16rem;
+  height: 9.15rem;
+}
+
+.banner-box .banner {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-box .banner img {
+  width: 100%;
+  height: 9.15rem;
+}
+
+.nav-box {
+  width: 16rem;
+  height: 4.15rem;
+  background: #f2f4f8;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-box .nav {
+  width: 13.15rem;
+  height: 4.15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-box .nav li {
+  text-align: center;
+}
+
+.nav-box .nav a {
+  font-size: 0.35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-box .nav a img {
+  width: 2.325rem;
+  height: 2.325rem;
+  padding-bottom: 0.3rem;
+}
+
+.about-us-box {
+  width: 16rem;
+}
+
+.about-us-box .about-us-title {
+  width: 16rem;
+  height: 1.05rem;
+  background: -webkit-linear-gradient(left, #ff9e29, #ffd647);
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-box .about-us-title div {
+  width: 13.15rem;
+  height: 1.05rem;
+  display: flex;
+  align-items: center;
+}
+
+.about-us-box .about-us-title div a {
+  width: 5.85rem;
+  height: 0.625rem;
+  font-size: 0.45rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../img/sign.png) no-repeat, url(../img/rightArrow.png) no-repeat right center;
+  background-position: 0.25rem center,5.55rem center;
+  background-size: 0.2rem 0.325rem,0.25rem 0.4rem;
+  background-color: #fff;
+  text-indent: 0.825rem;
+}
+
+.about-us-box .about-us-content {
+  width: 13.15rem;
+  height: 4.85rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.about-us-box .about-us-content a {
+  width: 5.825rem;
+  height: 3.625rem;
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+}
+
+.about-us-box .about-us-content a img {
+  width: 5.825rem;
+  height: 3.625rem;
+}
+
+.about-us-box .about-us-content div {
+  width: 6.85rem;
+  height: 3.625rem;
+  float: left;
+  font-size: 0.35rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.about-us-box .about-us-content div p {
+  text-indent: 2em;
+  line-height: 0.65rem;
+}
+
+.product-show-box .product-show-content {
+  width: 16rem;
+  height: 4.35rem;
+}
+
+.product-show-box .product-show-content ul {
+  width: 13.15rem;
+  height: 4.35rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-show-box .product-show-content li {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.35rem;
+}
+
+.product-show-box .product-show-content li a {
+  width: 100%;
+  border-left: 0.025rem dashed #000;
+}
+
+.product-show-box .product-show-content li .first {
+  border: none;
+}
+
+.product-show-box .product-show-content li span {
+  padding-top: 0.25rem;
+}
+
+.product-show-box .product-show-content img {
+  width: 3.35rem;
+  height: 2.35rem;
+}
+
+.firm-mien-box {
+  width: 16rem;
+}
+
+.firm-mien-box .firm-mien-content {
+  width: 13.15rem;
+  height: 4.15rem;
+  margin: 0 auto;
+}
+
+.firm-mien-box .firm-mien-content ul {
+  width: 13.15rem;
+  height: 4.15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.firm-mien-box .firm-mien-content li {
+  width: 6.45rem;
+  height: 2.9rem;
+}
+
+.firm-mien-box .firm-mien-content li img {
+  width: 6.45rem;
+  height: 2.9rem;
+}
+
+.footer {
+  background: #ffc63f;
+  width: 16rem;
+  height: 2.2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer ul {
+  width: 13.15rem;
+  height: 2.2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer li {
+  flex: 1;
+  display: flex;
+}
+
+.footer a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.35rem;
+}
+
+.footer a i {
+  width: 0.625rem;
+  height: 0.5rem;
+  background: url(../img/home.png) no-repeat;
+  background-size: 0.625rem 0.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.fill {
+  width: 16rem;
+  height: 2.2rem;
+}

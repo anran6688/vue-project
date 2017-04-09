@@ -1,0 +1,19 @@
+.box {
+  width: 13.15rem;
+  height: 3.6rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box img {
+  width: 5.825rem;
+  height: 3.6rem;
+}
+
+.box div {
+  width: 6.85rem;
+  height: 3.6rem;
+  font-size: 0.35rem;
+}
