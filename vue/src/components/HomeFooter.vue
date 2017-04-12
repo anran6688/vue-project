@@ -28,12 +28,12 @@
                         <span>联系电话</span>
                     </a>
                 </li>
-                <li>
-                    <a href="javascript:;">
-                        <i></i>
-                        <span>联系电话</span>
-                    </a>
-                </li>
+                <router-link tag="li" to="/home">
+                  <a href="javascript:;" >
+                      <i></i>
+                      <span>返回</span>
+                  </a>
+                </router-link>
             </ul>
         </div>
     </footer>
@@ -41,8 +41,9 @@
 </template>
 
 <script>
-export default {}
+
 </script>
 
 <style lang="css">
+  @import '../assets/css/PublicFooter.css'
 </style>

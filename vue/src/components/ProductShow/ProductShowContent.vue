@@ -15,43 +15,41 @@
 			</div>
 		</section>
 <!-- 产品展示 -->
-<section>
-  <div class="etp-show-box">
-    <div class="etp-show-title">
-      <a href="javascript:;">产品展示</a>
-    </div>
-    <ul class="list-img">
-      <li>
-        <a href="javascript:;">
-          <img src="../../assets/img/deskimg01.png" alt="">
-          <span>条案</span>
-        </a>
-      </li>
-      <li>
-        <a href="javascript:;">
-          <img src="../../assets/img/deskimg01.png" alt="">
-          <span>条案</span>
-        </a>
-      </li>
-      <li>
-        <a href="javascript:;">
-          <img src="../../assets/img/deskimg01.png" alt="">
-          <span>条案</span>
-        </a>
-      </li>
-      <li>
-        <a href="javascript:;">
-          <img src="../../assets/img/deskimg01.png" alt="">
-          <span>条案</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</section>
+    <section>
+      <div class="etp-show-box">
+        <div class="etp-show-title">
+          <a href="javascript:;">产品展示</a>
+        </div>
+        <ul class="list-img">
+          <li>
+            <a href="javascript:;">
+              <img src="../../assets/img/deskimg01.png" alt="">
+              <span>条案</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="../../assets/img/deskimg01.png" alt="">
+              <span>条案</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="../../assets/img/deskimg01.png" alt="">
+              <span>条案</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="../../assets/img/deskimg01.png" alt="">
+              <span>条案</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <!-- <div class="">
-      <router-view></router-view>
-    </div> -->
+
 
   </div>
 </template>

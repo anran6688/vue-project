@@ -6,8 +6,8 @@
       </router-link>
 
       <h1>华之腾集团有限公司</h1>
-      <a href="javascript:;" class="meau"></a>
-      <div class="meau-list">
+      <a href="javascript:;" class="meau" @click="show=!show"></a>
+      <div class="meau-list" v-show="show">
         <ul>
           <li>
             <a href="javascript:;">首页</a>
@@ -35,8 +35,20 @@
 
 <script>
 export default {
+  data(){
+    return {
+      show:false
+    }
+  },
+  methods:{
+    show(){
+      alert(1)
+      this.show=!this.show
+    }
+  }
 }
 </script>
 
 <style lang="css">
+  @import '../assets/css/PublicHeader.css'
 </style>

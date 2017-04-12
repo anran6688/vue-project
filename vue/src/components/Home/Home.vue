@@ -27,5 +27,6 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style scoped>
+  @import '../../assets/css/HomeContent.css'
 </style>

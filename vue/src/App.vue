@@ -17,13 +17,14 @@
 import HomeHeader from './components/home-header.vue'
 import Home from './components/Home/Home.vue'
 import ProductShowContent from './components/ProductShow/ProductShowContent.vue'
+import AboutUs from './components/AboutUs/AboutUs.vue'
 import HomeFooter from './components/HomeFooter.vue'
 export default {
   components:{
     HomeHeader,
-
     Home,
     ProductShowContent,
+    AboutUs,
     HomeFooter
   },
   mounted(){
@@ -45,5 +46,7 @@ export default {
 </script>
 
 <style lang="css">
-  @import './assets/css/homePage.css'
+  @import './assets/css/PublicHeader.css'
+  @import './assets/css/PublicFooter.css'
+  /*@import './assets/css/homePage.css'*/
 </style>

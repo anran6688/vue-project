@@ -4,7 +4,7 @@
 			<div class="nav-box">
 
 					<ul class="nav">
-            <router-link to="/home" tag="li">
+            <router-link to="/aboutus" tag="li">
               <a href="javascript:;">
 								<img src="../../assets/img/AboutUs.png" alt="">
 								<span>关于我们</span>
